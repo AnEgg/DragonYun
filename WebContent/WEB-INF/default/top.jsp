@@ -1,12 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-	pageEncoding="utf-8" isELIgnored="false"%><%@ taglib prefix="c"
-	uri="http://java.sun.com/jsp/jstl/core"%><%@ taglib prefix="fmt"
-	uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" isELIgnored="false" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <header class="header">
 	<div class="central">
 		<h1 class="logo">
-			<a href="${webapp.url}index"
-				title="${webapp.name} - ${webapp.descript}">${webapp.name}</a>
+			<a href="${webapp.url}index">${webapp.name}</a>
 		</h1>
 		<ul class="nav">
 			<li><a href="${webapp.url}index"

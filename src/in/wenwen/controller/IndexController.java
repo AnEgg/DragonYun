@@ -35,7 +35,7 @@ public class IndexController {
     
     @GET("/index")
     public String index(HttpServletRequest request) {
-        String pStr = request.getParameter("p");//当前页
+        String pStr = request.getParameter("p");					//当前页
         int p = 1;
         if(StringUtil.isNotBlank(pStr) && pStr.matches("[0-9]+")) {
             p = Integer.parseInt(pStr);

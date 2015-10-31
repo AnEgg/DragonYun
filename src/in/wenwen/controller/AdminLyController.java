@@ -16,6 +16,10 @@ import org.jiucheng.web.annotation.Controller;
 import org.jiucheng.web.annotation.Param;
 import org.jiucheng.web.annotation.Controller.GET;
 
+/**
+ * 留言管理
+ * @author acer
+ */
 @Controller(AdminHandler.class)
 public class AdminLyController {
     
